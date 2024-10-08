@@ -1,8 +1,172 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style: none;
 }
 
 a{
   text-decoration: none;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.right,
+.left {
+  display: flex;
+  flex: 1;
+}
+
+.right{
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.section-one {
+  /*background-color: #1F2937;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+
+
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 200px;
+  gap: 20px;
+
+
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.placeholder {
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+
+.placeholder-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+
+}
+
+.Main {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.header,
+.section-one {
+  background-color: #1F2937;
+}
+
+a,
+.secondary,
+.placeholder {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.left {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.sign {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+  align-items: center;
+  height: 400px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 400px;
+
+}
+
+.random{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  padding-bottom: 40px;
+}
+
+.image {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  
+}
+.icon > img {
+  outline: 4px solid #3882F6;
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.icon .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  color: #636161;
+  padding-top: 10px;
+  
+
 }
