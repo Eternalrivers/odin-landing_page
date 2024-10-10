@@ -170,3 +170,38 @@ a,
   
 
 }
+
+.section-three {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  flex-wrap: wrap;
+  padding: 0 15px;
+
+
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  padding-right: 50px;
+  font-weight: 900;
+}
