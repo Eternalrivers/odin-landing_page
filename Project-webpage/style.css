@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.webpage {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+
+
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.right,
+.left {
+  display: flex;
+  flex: 1;
+}
+
+.left {
+  font-weight: bold;
+}
+
+.right{
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.section-one {
+  /*background-color: #1F2937;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+
+
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 200px;
+  gap: 20px;
+  flex-wrap: wrap;
+
+
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.placeholder {
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+
+.placeholder-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+
+}
+
+.Main {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.header,
+.section-one {
+  background-color: #1F2937;
+}
+
+a,
+.secondary,
+.placeholder {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.left {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.sign {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+  align-items: center;
+  height: 400px;
+  padding-bottom: 50px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 400px;
+
+}
+
+.random{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  padding-bottom: 40px;
+}
+
+.image {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  
+}
+.icon > img {
+  outline: 4px solid #3882F6;
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.icon .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  color: #636161;
+  padding-top: 10px;
+  
+
+}
+
+.section-three {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  flex-wrap: wrap;
+  padding: 0 15px;
+
+
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding-right: 10px;
+}
+
+.author {
+  text-align: right;
+  padding-right: 50px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex: 1 1 auto;
+}
+
+/*.webpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+.container-4 {
+}*/
+
+.container-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 100px;
+  background-color: #3882F6;
+  border-radius: 0.5cap;
+  color: #F9FAF8;
+}
+
+.call {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.sign-up {
+  font-size: 0.9em;
+}
+
+.container-4 > button {
+  width: 100px; 
+  padding: 3px 0;
+  background-color: #3882F6;
+  border-color: #F9FAF8;
+  border-width: 3px;
+  border-radius: 10%;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
